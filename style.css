@@ -10,13 +10,24 @@ html,body{
     height: 100%;
 }
 
+@font-face {
+    font-family: Rusilla serif;
+    src: url(RusillaSerif-2OZpl.otf);
+}
+
 body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     background-color: #94ADD7;
+}
+
+.heading{
+    font-size: 3rem;
+    font-family: Rusilla serif;
 }
 
 .main{
