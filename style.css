@@ -10,11 +10,6 @@ html,body{
     height: 100%;
 }
 
-@font-face {
-    font-family: Rusilla serif;
-    src: url(RusillaSerif-2OZpl.otf);
-}
-
 body{
     display: flex;
     align-items: center;
@@ -26,8 +21,10 @@ body{
 }
 
 .heading{
-    font-size: 3rem;
-    font-family: Rusilla serif;
+    font-size: 3rem; 
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .main{
@@ -51,7 +48,9 @@ body{
     text-align: center;
     padding-top: 20px;
     font-size: 25px;
-    font-family: Rusilla serif;
+     font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .sub-box{
