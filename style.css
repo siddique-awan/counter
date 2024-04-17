@@ -136,7 +136,7 @@ body{
     font-size: 40px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #page01{
         flex-direction: column;
     }
