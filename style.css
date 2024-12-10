@@ -3,19 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     user-select: none;
-    font-family: Rusilla serif;
+    font-family: "Roboto", sans-serif;
 }
 
 html,body{
     width: 100%;
     height: 100%;
 }
-
-@font-face {
-    font-family: Rusilla serif;
-    src: url(media/RusillaSerif-2OZpl.otf);
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
-
 body{
     background:url(media/04.jpg);
 }
@@ -36,7 +35,6 @@ body{
 
 .heading{
     font-size: 3rem;
-    font-family: Rusilla serif;
 }
 
 
@@ -62,7 +60,6 @@ body{
     text-align: center;
     padding-top: 20px;
     font-size: 25px;
-    font-family: Rusilla serif;
 }
 
 .sub-box{
